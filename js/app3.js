@@ -6,14 +6,14 @@ switch (cual){
         let nu5 = parseInt(prompt("Ingrese el primer numero."));
         let nu6 = parseInt(prompt("Ingrese el segundo numero."));
         let result= nu5 * nu6;;
-        alert('La multiplicacion es : ' + result);
+        alert('La multiplicacion es : ' + result.toFixed(2));
         break;
     case 2:
         let nu7 = parseInt(prompt("Ingrese el primer numero."));
         let nu8 = parseInt(prompt("Ingrese el segundo numero."));
         if(nu8 !== 0){
         let resultad = nu7 / nu8;
-        alert('La division es : ' + resultad);
+        alert('La division es : ' + resultad.toFixed(2));
         }
         else{
      alert('No se puede hacer esta operacio');
